@@ -4,6 +4,9 @@ on: [pull_request]
 jobs:
   compatibilitycheck:
     runs-on: ubuntu-latest
+    defaults:
+       run:
+         working-directory: ./pnpm-test-datasource/
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
