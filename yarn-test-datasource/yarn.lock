@@ -1239,7 +1239,7 @@
 
 "@grafana/data@9.3.8":
   version "9.3.8"
-  resolved "http://localhost:4873/@grafana/data/-/data-9.3.8.tgz#44543879a1dbf68d4f426e1e97d7f2294c60b8fc"
+  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-9.3.8.tgz#44543879a1dbf68d4f426e1e97d7f2294c60b8fc"
   integrity sha512-D0DFiMK2kU+QKU/s/LhJiAn88NZHI26pBA/6JQMNSdmFu2ZKDNgGAPEJNM+UmoaAgZw8W2Uz6LVzFmDIa4LTRQ==
   dependencies:
     "@braintree/sanitize-url" "6.0.1"
@@ -1265,7 +1265,7 @@
 
 "@grafana/e2e-selectors@9.3.8":
   version "9.3.8"
-  resolved "http://localhost:4873/@grafana/e2e-selectors/-/e2e-selectors-9.3.8.tgz#8f1c94173cc65f0e5f28fb91c93e09535eb77867"
+  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-9.3.8.tgz#8f1c94173cc65f0e5f28fb91c93e09535eb77867"
   integrity sha512-6dEcwUYfab7bSrOWDAonCrhwb7tWsEq0SEsb8h8jTLWiAZXYBFAeZA/S+eMgZ7+fcLmk2+nF+Abr5iQ4khDBNw==
   dependencies:
     "@grafana/tsconfig" "^1.2.0-rc1"
@@ -1274,7 +1274,7 @@
 
 "@grafana/e2e@9.3.8":
   version "9.3.8"
-  resolved "http://localhost:4873/@grafana/e2e/-/e2e-9.3.8.tgz#a7829aec28421ef3c2871bb4f63d53cfb323abe1"
+  resolved "https://registry.yarnpkg.com/@grafana/e2e/-/e2e-9.3.8.tgz#a7829aec28421ef3c2871bb4f63d53cfb323abe1"
   integrity sha512-wXlPH3tOCujSZLKubyB8fKcwJYmKr2TpowQl7pqQYE8vwzSdCTgYKP+517dmmwwQyxPzsk+8Ke0MZaWn+pHJeQ==
   dependencies:
     "@babel/core" "7.19.6"
@@ -1304,7 +1304,7 @@
 
 "@grafana/eslint-config@^5.1.0":
   version "5.1.0"
-  resolved "http://localhost:4873/@grafana/eslint-config/-/eslint-config-5.1.0.tgz#020d12db231bd7448401d56179376c7119d4ffae"
+  resolved "https://registry.yarnpkg.com/@grafana/eslint-config/-/eslint-config-5.1.0.tgz#020d12db231bd7448401d56179376c7119d4ffae"
   integrity sha512-JukObDh3hG8JVIZH2SfF3IUfLxfiL/O9kSGpLBpVyEWOzVle79KagQArCgi0r8LlMhL1m6srViY59J+B8+BTYA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.42.0"
@@ -1318,7 +1318,7 @@
 
 "@grafana/faro-core@^1.0.0-beta2":
   version "1.0.2"
-  resolved "http://localhost:4873/@grafana/faro-core/-/faro-core-1.0.2.tgz#ac3d635a4ac464ab577c7e475c78211acd09bf02"
+  resolved "https://registry.yarnpkg.com/@grafana/faro-core/-/faro-core-1.0.2.tgz#ac3d635a4ac464ab577c7e475c78211acd09bf02"
   integrity sha512-6gOgyF0wxbubaDk/n3TceKF5Rgn+3rVKpHzD8ktseFfm+4c1oAc27d6XqrLm3cz/KSChs+k7amrZtGo6p+X4nA==
   dependencies:
     "@opentelemetry/api" "^1.4.0"
@@ -1327,7 +1327,7 @@
 
 "@grafana/faro-web-sdk@1.0.0-beta2":
   version "1.0.0-beta2"
-  resolved "http://localhost:4873/@grafana/faro-web-sdk/-/faro-web-sdk-1.0.0-beta2.tgz#d096a350d6366a108428a205753c797802eb480d"
+  resolved "https://registry.yarnpkg.com/@grafana/faro-web-sdk/-/faro-web-sdk-1.0.0-beta2.tgz#d096a350d6366a108428a205753c797802eb480d"
   integrity sha512-Z/ZbMpBG4/+ZHuPntVTANvStBP1pkDT3+oqKDYW3O4iP4wBhIUyXk7Pmr9LJZIjcStBizEFMH/N/F/gyD5DHjQ==
   dependencies:
     "@grafana/faro-core" "^1.0.0-beta2"
@@ -1336,7 +1336,7 @@
 
 "@grafana/runtime@9.3.8":
   version "9.3.8"
-  resolved "http://localhost:4873/@grafana/runtime/-/runtime-9.3.8.tgz#e7b5b557b2db75d69ee6e78997e5b9d1c438f38b"
+  resolved "https://registry.yarnpkg.com/@grafana/runtime/-/runtime-9.3.8.tgz#e7b5b557b2db75d69ee6e78997e5b9d1c438f38b"
   integrity sha512-NwYnXy1KmNMgShNHJypQyw/QGQGpTzBVOOcAi+vabI27qOmnmENdOlU22UBtCQ/doRyatVQ+WQYYhE+PucWY0w==
   dependencies:
     "@grafana/data" "9.3.8"
@@ -1352,19 +1352,19 @@
 
 "@grafana/schema@9.3.8":
   version "9.3.8"
-  resolved "http://localhost:4873/@grafana/schema/-/schema-9.3.8.tgz#f220dbf510523eca9b8c050d8c8f14552b5f2d6e"
+  resolved "https://registry.yarnpkg.com/@grafana/schema/-/schema-9.3.8.tgz#f220dbf510523eca9b8c050d8c8f14552b5f2d6e"
   integrity sha512-/vYGl6mYZZ5n0r5at5qPD6oSGDDyOeVFHaNbTXjH47gRHmk1G+JXgVAX3VDZSPjgOwwd1S/II7VCp52WLyN/yA==
   dependencies:
     tslib "2.4.1"
 
 "@grafana/tsconfig@^1.2.0-rc1":
   version "1.2.0-rc1"
-  resolved "http://localhost:4873/@grafana/tsconfig/-/tsconfig-1.2.0-rc1.tgz#10973c978ec95b0ea637511254b5f478bce04de7"
+  resolved "https://registry.yarnpkg.com/@grafana/tsconfig/-/tsconfig-1.2.0-rc1.tgz#10973c978ec95b0ea637511254b5f478bce04de7"
   integrity sha512-+SgQeBQ1pT6D/E3/dEdADqTrlgdIGuexUZ8EU+8KxQFKUeFeU7/3z/ayI2q/wpJ/Kr6WxBBNlrST6aOKia19Ag==
 
 "@grafana/ui@9.3.8":
   version "9.3.8"
-  resolved "http://localhost:4873/@grafana/ui/-/ui-9.3.8.tgz#8f6d56784e4b22099369942c3e8bfc7816639b3d"
+  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-9.3.8.tgz#8f6d56784e4b22099369942c3e8bfc7816639b3d"
   integrity sha512-rqZDRewgtztCijncCsxq3W1eeoV4TBe94BalaHifpe2gujMqOb1BAyjZZtplYfT5BlmKX+DroyPb6FutHAVp5Q==
   dependencies:
     "@emotion/css" "11.10.5"
