@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: '16'
           cache: 'pnpm'
+          cache-dependency-path: './pnpm-test-datasource/pnpm-lock.yaml'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile --prefer-offline
       - name: Build plugin
