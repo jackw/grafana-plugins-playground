@@ -37,7 +37,7 @@ jobs:
         run: npm run build
 
       - name: Start grafana docker
-        run: npm run server -d
+        run: docker-compose up -d
 
       - name: Run e2e tests
         run: npm run e2e

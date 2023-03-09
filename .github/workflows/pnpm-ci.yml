@@ -40,7 +40,7 @@ jobs:
         run: pnpm run build
 
       - name: Start grafana docker
-        run: pnpm run server -d
+        run: docker-compose up -d
 
       - name: Run e2e tests
         run: pnpm run e2e

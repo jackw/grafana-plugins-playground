@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint --cache --ignore-path ./.gitignore --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "pnpm run lint --fix",
-    "e2e": "pnpm grafana-e2e run",
-    "e2e:update": "pnpm grafana-e2e run --update-screenshots",
+    "e2e": "pnpm exec grafana-e2e run",
+    "e2e:update": "pnpm exec grafana-e2e run --update-screenshots",
     "server": "docker-compose up --build",
     "sign": "npx --yes @grafana/sign-plugin@latest"
   },
@@ -38,6 +38,7 @@
     "@typescript-eslint/parser": "^5.42.1",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
+    "cypress": "9.5.1",
     "eslint": "8.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsdoc": "^39.6.2",
