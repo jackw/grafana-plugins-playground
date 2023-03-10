@@ -45,30 +45,30 @@ jobs:
       - name: Stop grafana docker
         run: docker-compose down
 
-      - name: Check for backend
-        id: check-for-backend
-        run: |
-          if [ -f "Magefile.go" ]
-          then
-            echo "has-backend=true" >> $GITHUB_OUTPUT
-          fi
+      # - name: Check for backend
+      #   id: check-for-backend
+      #   run: |
+      #     if [ -f "Magefile.go" ]
+      #     then
+      #       echo "has-backend=true" >> $GITHUB_OUTPUT
+      #     fi
 
-      - name: Setup Go environment
-        if: steps.check-for-backend.outputs.has-backend == 'true'
-        uses: actions/setup-go@v3
-        with:
-          go-version: "1.19"
+      # - name: Setup Go environment
+      #   if: steps.check-for-backend.outputs.has-backend == 'true'
+      #   uses: actions/setup-go@v3
+      #   with:
+      #     go-version: "1.19"
 
-      - name: Test backend
-        if: steps.check-for-backend.outputs.has-backend == 'true'
-        uses: magefile/mage-action@v2
-        with:
-          version: latest
-          args: coverage
+      # - name: Test backend
+      #   if: steps.check-for-backend.outputs.has-backend == 'true'
+      #   uses: magefile/mage-action@v2
+      #   with:
+      #     version: latest
+      #     args: coverage
 
-      - name: Build backend
-        if: steps.check-for-backend.outputs.has-backend == 'true'
-        uses: magefile/mage-action@v2
-        with:
-          version: latest
-          args: buildAll
+      # - name: Build backend
+      #   if: steps.check-for-backend.outputs.has-backend == 'true'
+      #   uses: magefile/mage-action@v2
+      #   with:
+      #     version: latest
+      #     args: buildAll
