@@ -25,7 +25,6 @@ specifiers:
   '@typescript-eslint/parser': ^5.42.1
   copy-webpack-plugin: ^11.0.0
   css-loader: ^6.7.1
-  cypress: 9.5.1
   eslint: 8.26.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-jsdoc: ^39.6.2
@@ -82,7 +81,6 @@ devDependencies:
   '@typescript-eslint/parser': 5.54.1_y3mxkvgm326kifdc6ztczmtrsu
   copy-webpack-plugin: 11.0.0_webpack@5.76.0
   css-loader: 6.7.3_webpack@5.76.0
-  cypress: 9.5.1
   eslint: 8.26.0
   eslint-config-prettier: 8.7.0_eslint@8.26.0
   eslint-plugin-jsdoc: 39.9.1_eslint@8.26.0
