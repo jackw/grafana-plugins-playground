@@ -1,0 +1,23 @@
+name: IS COMPATIBLE (YARN PANEL)
+on: [pull_request]
+
+jobs:
+  compatibilitycheck:
+    runs-on: ubuntu-latest
+    defaults:
+       run:
+         working-directory: ./heywesty-yarntester-panel/
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+          cache-dependency-path: './heywesty-yarntester-panel/yarn.lock'
+      - name: Install dependencies
+        run: yarn install --immutable --prefer-offline
+      - name: Build plugin
+        run: yarn run build
+      - name: Compatibility check
+        run: npx @grafana/levitate@latest is-compatible --path src/module.ts --target @grafana/data,@grafana/ui,@grafana/runtime
