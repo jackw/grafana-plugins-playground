@@ -1,4 +1,4 @@
-name: CI (PNPM APP)
+name: CI (PNPM DATASOURCE)
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
        run:
-         working-directory: ./heywesty-pnpmtester-app/
+         working-directory: ./heywesty-pnpmtester-datasource/
     steps:
       - uses: actions/checkout@v3
       # pnpm action uses the packageManager field in package.json to
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: '16'
           cache: 'pnpm'
-          cache-dependency-path: './heywesty-pnpmtester-app/pnpm-lock.yaml'
+          cache-dependency-path: './heywesty-pnpmtester-datasource/pnpm-lock.yaml'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile --prefer-offline
 
@@ -70,7 +70,7 @@ jobs:
         with:
           version: latest
           args: coverage
-          workdir: ./heywesty-pnpmtester-app/
+          workdir: ./heywesty-pnpmtester-datasource/
 
       - name: Build backend
         if: steps.check-for-backend.outputs.has-backend == 'true'
@@ -78,4 +78,4 @@ jobs:
         with:
           version: latest
           args: buildAll
-          workdir: ./heywesty-pnpmtester-app/
+          workdir: ./heywesty-pnpmtester-datasource/
