@@ -1,6 +1,6 @@
 # Grafana Plugins Playground
 
-I use this for playing around with Grafana Plugins.
+I use this for testing different things out with Grafana Plugins.
 
 Right now I'm benchmarking frontend package managers.
 
