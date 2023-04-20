@@ -1,4 +1,4 @@
-name: CI
+name: CI (YARN APP)
 
 on:
   push:
