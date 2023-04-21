@@ -3,7 +3,7 @@ name: RELEASE (NPM PANEL)
 on:
   push:
     tags:
-      - '@npm-panel-v*' # Run workflow on version tags, e.g. v1.0.0.
+      - 'v*-npm-panel' # Run workflow on version tags, e.g. v1.0.0.
 
 jobs:
   release:

@@ -3,7 +3,7 @@ name: RELEASE (YARN DATASOURCE)
 on:
   push:
     tags:
-      - '@yarn-panel-v*' # Run workflow on version tags, e.g. v1.0.0.
+      - 'v*-yarn-panel' # Run workflow on version tags, e.g. v1.0.0.
 
 jobs:
   release:
