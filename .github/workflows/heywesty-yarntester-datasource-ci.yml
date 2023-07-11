@@ -37,7 +37,7 @@ jobs:
         run: yarn run build
 
       - name: Start grafana docker
-        run: docker-compose up -d
+        run: docker-compose up -d --build
 
       - name: Run e2e tests
         run: yarn run e2e
